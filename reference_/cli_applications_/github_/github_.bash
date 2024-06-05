@@ -27,12 +27,16 @@
 	$ git remote add origin "URL_"
 	$ git push origin main
 
+###############################################################
+# We also have --> git pull
 	
 ###############################################################
 
 # VCS --> Version Control Services
 
+###############################################################
 
+# You have to learn more about --> Github Organizations
 
 
 
