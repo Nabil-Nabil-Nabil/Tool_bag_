@@ -6,7 +6,21 @@
 
 	$ eval $(ssh-agent -s)
 
-	$ ssh-add
+	$ ssh-add ~/.ssh/"File_key_name_"
+
+	# Create config file
+		vi ~/.ssh/config
+			# Start text
+				Host github.com-"Your_Github_Account_"
+  			HostName github.com
+  			User git
+  			IdentityFile ~/.ssh/"File_key_name_"
+  		# End text
+
+  # Test Your Coniction
+  	ssh -T git@github.com-"Your_Github_Account_"
+  # List ssh added
+  	ssh-add -l
 
 	$ pbcopy < "PATH"  |--> $ vi ~/.ssh/"File_key_name_".pub
 
